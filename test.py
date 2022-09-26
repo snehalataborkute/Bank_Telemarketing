@@ -1,0 +1,16 @@
+age:59
+job:technician
+marital:single
+education:secondary
+default:yes
+balance:2343
+housing:no
+loan:yes
+contact:cellular
+day:5
+month:apr
+duration:1042
+campaign:1
+pdays:-1
+previous:0
+poutcome:3

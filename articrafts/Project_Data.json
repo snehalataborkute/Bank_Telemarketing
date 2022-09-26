@@ -1,0 +1,1 @@
+{"columns": ["age", "job", "marital", "education", "default", "balance", "housing", "loan", "contact", "day", "month", "duration", "campaign", "pdays", "previous", "poutcome"], "month": {"may": 5, "jul": 7, "aug": 8, "jun": 6, "nov": 11, "apr": 4, "feb": 2, "jan": 1, "oct": 10, "sep": 9, "mar": 3, "dec": 12}, "deposit": {"no": 1, "yes": 0}}

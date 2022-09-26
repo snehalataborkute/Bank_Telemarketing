@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ML API</title>
+    </head>
+    <body>
+    <div>
+        <h1>Bank Telemarketing Analysis</h1>
+        <form method="POST", action = "{{url_for('analysis')}}">
+            <label for="age">Age</label>
+            <p><input type = "text" name="age" placeholder="age"></p>
+            <br><br>
+            <label for="job">Job</label>
+            <p><input type = "text" name="job" placeholder="job"></p>
+            <br><br>
+            <label for="housing">Housing</label>
+            <p><input type = "text" name="housing" placeholder="housing"></p>
+            <br><br>            
+            <label for="day">Day</label>
+            <p><input type = "text" name="day" placeholder="day"></p>
+            <br><br>
+            <label for="month">Month</label>
+            <p><input type = "text" name="month" placeholder="month"></p>
+            <br><br>
+            <label for="duration">Duration</label>
+            <p><input type = "text" name="duration" placeholder="duration"></p>
+            <br><br>
+            <label for="poutcome">Poutcome</label>
+            <p><input type = "text" name="poutcome" placeholder="poutcome"></p>
+            <br><br>
+            <input type="submit" value="analysis" onclick="analysis()">
+        </form>
+    </div>
+    </body>
+</html>
